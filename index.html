@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jessi Self Drive Cars | Car Rentals Vijayawada</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+:root{--y:#e6b800;--yd:#ccaa00;--yl:rgba(230,184,0,.12);--d:#1a1a1a;--g:#666;--lg:#f5f5f5;--w:#fff;--gr:#25d366;--grd:#1da851;--r:#e74c3c;--sh:0 4px 20px rgba(0,0,0,.08);--shh:0 8px 30px rgba(0,0,0,.15);--rd:12px;--t:all .3s ease}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:'Poppins',sans-serif;color:var(--d);background:var(--w);overflow-x:hidden}
+h1,h2,h3,h4,h5{font-family:'Montserrat',sans-serif}a{text-decoration:none;color:inherit}img{max-width:100%;display:block}
+
+.tb{background:var(--y);color:var(--d);padding:8px 5%;display:flex;justify-content:space-between;align-items:center;font-size:13px;flex-wrap:wrap;gap:8px}
+.tb a{color:var(--d);transition:var(--t)}.tb a:hover{color:var(--w)}.tb i{margin-right:6px}
+
+.nv{background:var(--w);padding:0 5%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:1000;box-shadow:0 2px 15px rgba(0,0,0,.08);height:70px}
+.nb{display:flex;align-items:center;gap:10px;cursor:pointer}.nb i{font-size:28px;color:var(--y)}
+.nb span{font-size:20px;font-weight:800;color:var(--d)}.nb .hl{color:var(--y)}
+.nl{display:flex;gap:28px;list-style:none;align-items:center}
+.nl a{font-size:14px;font-weight:500;color:var(--d);transition:var(--t);text-transform:uppercase;letter-spacing:.5px}
+.nl a:hover{color:var(--y)}
+.nc{background:var(--y)!important;color:var(--d)!important;padding:10px 22px!important;border-radius:50px;font-weight:600!important}
+.nc:hover{background:var(--yd)!important}
+.hm{display:none;background:none;border:none;font-size:24px;color:var(--d);cursor:pointer}
+
+.hero{background:linear-gradient(135deg,rgba(230,184,0,.9),rgba(200,160,0,.85)),url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1920&q=80') center/cover no-repeat;min-height:550px;display:flex;align-items:center;padding:80px 5%;color:var(--d)}
+.hc{max-width:700px}.hc h1{font-size:42px;font-weight:900;line-height:1.2;margin-bottom:20px}.hc h1 span{color:var(--w)}
+.hc p{font-size:16px;line-height:1.8;margin-bottom:30px;color:#333}
+.hb{display:flex;gap:15px;flex-wrap:wrap}
+.btn{padding:14px 32px;border-radius:50px;font-weight:600;font-size:15px;transition:var(--t);display:inline-flex;align-items:center;gap:8px;border:none;cursor:pointer;font-family:'Poppins',sans-serif}
+.by{background:var(--d);color:var(--y)}.by:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(0,0,0,.2)}
+.bg{background:var(--gr);color:var(--w)}.bg:hover{background:var(--grd);transform:translateY(-2px)}
+
+.sec{padding:70px 5%}.sh{text-align:center;margin-bottom:50px}
+.sh h2{font-size:36px;font-weight:800;color:var(--d);margin-bottom:10px}.sh h2 span{color:var(--y)}
+.sh p{color:var(--g);font-size:16px;max-width:600px;margin:0 auto;line-height:1.7}.sg{background:var(--lg)}
+
+.lc{background:var(--w);border-radius:var(--rd);box-shadow:var(--sh);padding:40px;text-align:center;max-width:500px;margin:0 auto;transition:var(--t)}
+.lc:hover{box-shadow:var(--shh);transform:translateY(-5px)}
+.lc .li{font-size:50px;color:var(--y);margin-bottom:15px}.lc h3{font-size:24px;color:var(--d);margin-bottom:10px}
+.lc p{color:var(--g);line-height:1.7;margin-bottom:20px}
+.lb{display:inline-flex;align-items:center;gap:6px;color:var(--y);font-weight:600;font-size:14px;text-transform:uppercase;letter-spacing:1px;transition:var(--t)}.lb:hover{gap:10px}
+
+.fg{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:30px;max-width:1200px;margin:0 auto}
+.fc{background:var(--w);border-radius:var(--rd);box-shadow:var(--sh);overflow:hidden;transition:var(--t)}
+.fc:hover{box-shadow:var(--shh);transform:translateY(-5px)}
+.fi{overflow:hidden;position:relative;height:220px;background:#e8e8e8}
+.fi img{width:100%;height:100%;object-fit:cover;transition:var(--t)}.fc:hover .fi img{transform:scale(1.03)}
+.fb{position:absolute;top:15px;right:15px;background:var(--y);color:var(--d);padding:8px 18px;border-radius:50px;font-weight:700;font-size:16px;font-family:'Montserrat',sans-serif;box-shadow:0 4px 15px rgba(230,184,0,.3)}
+.fd{padding:22px}.fd h3{font-size:20px;font-weight:700;color:var(--d);margin-bottom:12px}
+.fs{display:flex;flex-direction:column;gap:6px;margin-bottom:15px;font-size:14px;color:var(--g)}
+.fs span{display:flex;align-items:center;gap:8px}.fs i{color:var(--y);width:16px;font-size:13px}
+.fe{background:var(--lg);padding:8px 14px;border-radius:8px;font-size:13px;font-weight:600;color:var(--d);margin-bottom:18px;display:inline-block}
+.fbt{display:flex;gap:10px}
+.fb1,.fb2{flex:1;padding:11px;border-radius:8px;font-weight:600;font-size:13px;text-align:center;transition:var(--t);border:none;cursor:pointer;font-family:'Poppins',sans-serif;display:flex;align-items:center;justify-content:center;gap:6px}
+.fb1{background:var(--y);color:var(--d)}.fb1:hover{background:var(--yd)}
+.fb2{background:var(--gr);color:var(--w)}.fb2:hover{background:var(--grd)}
+
+.wg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px;max-width:1100px;margin:0 auto}
+.wc{background:var(--w);border-radius:var(--rd);padding:35px 30px;text-align:center;box-shadow:var(--sh);transition:var(--t);border-top:3px solid transparent}
+.wc:hover{box-shadow:var(--shh);transform:translateY(-5px);border-top-color:var(--y)}
+.wi{width:70px;height:70px;border-radius:50%;background:linear-gradient(135deg,var(--y),#f0d050);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-size:28px;color:var(--d)}
+.wc h4{font-size:18px;color:var(--d);margin-bottom:8px}.wc p{color:var(--g);font-size:14px;line-height:1.7}
+
+.tg{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px;max-width:1200px;margin:0 auto}
+.tc{background:var(--w);border-radius:var(--rd);padding:30px;box-shadow:var(--sh);transition:var(--t)}
+.tc:hover{box-shadow:var(--shh)}.ts{color:#ffc107;margin-bottom:12px;font-size:16px}
+.tt{color:var(--g);font-size:14px;line-height:1.8;margin-bottom:18px;font-style:italic}
+.ta{display:flex;align-items:center;gap:12px}
+.tv{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--y),var(--yd));display:flex;align-items:center;justify-content:center;color:var(--d);font-weight:700;font-size:16px}
+.tn{font-weight:600;font-size:15px;color:var(--d)}.tm{font-size:12px;color:var(--g)}
+
+.ss{background:linear-gradient(135deg,var(--y),var(--yd));padding:60px 5%;color:var(--d)}
+.sg2{display:flex;justify-content:center;gap:50px;flex-wrap:wrap;max-width:1000px;margin:0 auto}
+.si{text-align:center;min-width:140px}
+.sn{font-family:'Montserrat',sans-serif;font-size:46px;font-weight:900;color:var(--d)}
+.sl{font-size:14px;opacity:.7;margin-top:5px}
+
+.ft{background:var(--d);color:rgba(255,255,255,.75);padding:60px 5% 30px}
+.ftg{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:40px;max-width:1200px;margin:0 auto 40px}
+.ftc h4{color:var(--w);font-size:18px;margin-bottom:18px}.ftc h4 span{color:var(--y)}
+.ftc p{font-size:14px;line-height:1.8;margin-bottom:12px}
+.ftc a{color:rgba(255,255,255,.75);display:block;padding:4px 0;font-size:14px;transition:var(--t)}.ftc a:hover{color:var(--y);padding-left:5px}
+.fci{display:flex;align-items:flex-start;gap:10px;margin-bottom:12px;font-size:14px}.fci i{color:var(--y);margin-top:3px}
+.fso{display:flex;gap:12px;margin-top:15px}
+.fso a{width:38px;height:38px;border-radius:50%;border:1px solid rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.7);transition:var(--t);font-size:16px;padding:0}
+.fso a:hover{background:var(--y);color:var(--d);border-color:var(--y)}
+.ftb{border-top:1px solid rgba(255,255,255,.1);padding-top:25px;text-align:center;font-size:13px}
+
+.faw{position:fixed;bottom:25px;right:25px;z-index:999;width:60px;height:60px;border-radius:50%;background:var(--gr);color:var(--w);font-size:30px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,.4);transition:var(--t)}.faw:hover{transform:scale(1.1)}
+.fap{position:fixed;bottom:25px;left:25px;z-index:999;width:60px;height:60px;border-radius:50%;background:var(--y);color:var(--d);font-size:24px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(230,184,0,.4);transition:var(--t)}.fap:hover{transform:scale(1.1)}
+
+.page{display:none;min-height:100vh}.page.active{display:block}
+
+.dp{padding:30px 5% 60px;max-width:1200px;margin:0 auto}
+.bb{display:inline-flex;align-items:center;gap:8px;color:var(--y);font-size:14px;cursor:pointer;margin-bottom:25px;transition:var(--t);text-transform:uppercase;letter-spacing:1px;background:none;border:none;font-family:'Poppins',sans-serif;font-weight:600}.bb:hover{gap:12px}
+.dg{display:grid;grid-template-columns:1fr 1fr;gap:45px}
+.di{width:100%;height:380px;object-fit:cover;border-radius:var(--rd);box-shadow:var(--sh);background:#e8e8e8}
+.dn h2{font-size:32px;color:var(--d);margin-bottom:12px}
+.dt{display:flex;gap:10px;margin-bottom:18px;flex-wrap:wrap}
+.dtg{background:var(--yl);border:1px solid rgba(230,184,0,.25);padding:5px 14px;border-radius:50px;font-size:12px;color:var(--y);font-weight:600;text-transform:uppercase}
+.dd{color:var(--g);line-height:1.8;margin-bottom:22px;font-size:15px}
+.df{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:28px}
+.dfe{display:flex;align-items:center;gap:10px;color:var(--g);font-size:14px}.dfe i{color:var(--y)}
+.dl{font-size:14px;font-weight:600;color:var(--d);text-transform:uppercase;letter-spacing:1px;margin-bottom:12px}
+.dcs{display:flex;gap:15px}
+.dc{flex:1;background:var(--w);border:2px solid #e0e0e0;border-radius:var(--rd);padding:20px;text-align:center;cursor:pointer;transition:var(--t)}
+.dc:hover,.dc.sel{border-color:var(--y);background:var(--yl)}
+.dc .du{font-size:12px;color:var(--g);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:5px}
+.dc .am{font-size:28px;font-weight:800;color:var(--y);font-family:'Montserrat',sans-serif}
+.dc .pe{font-size:12px;color:var(--g)}
+
+.cs{margin-top:45px}.cs h3{font-size:26px;color:var(--d);margin-bottom:20px;text-align:center}.cs h3 span{color:var(--y)}
+.cb{background:var(--w);border:1px solid #e8e8e8;border-radius:16px;padding:28px;max-width:480px;margin:0 auto;box-shadow:var(--sh)}
+.ch{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px}.ch h4{font-size:18px;color:var(--d)}
+.cn{background:var(--w);border:1px solid #ddd;color:var(--y);width:38px;height:38px;border-radius:50%;cursor:pointer;font-size:14px;transition:var(--t);display:flex;align-items:center;justify-content:center}
+.cn:hover{background:var(--y);color:var(--d);border-color:var(--y)}
+.cg{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}
+.cdn{font-size:11px;color:var(--g);padding:8px 0;font-weight:700;text-transform:uppercase;letter-spacing:1px}
+.cd{padding:11px 0;border-radius:8px;font-size:14px;cursor:pointer;transition:var(--t);font-weight:500}
+.cd:hover:not(.unavail):not(.empty):not(.past){background:var(--yl)}
+.cd.today{border:2px solid var(--y)}.cd.sel{background:var(--y);color:var(--d);font-weight:700}
+.cd.inrange{background:var(--yl);color:#b8960a}.cd.unavail{color:var(--r);text-decoration:line-through;cursor:not-allowed;opacity:.5}
+.cd.empty{cursor:default}.cd.past{color:#ccc;cursor:not-allowed}
+.cle{display:flex;gap:18px;justify-content:center;margin-top:18px}
+.cli{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--g)}
+.ld{width:12px;height:12px;border-radius:4px}.ld.av{background:var(--y)}.ld.un{background:var(--r)}
+.din{text-align:center;margin-top:18px;padding:14px;background:var(--yl);border-radius:10px;font-size:14px;color:var(--g)}.din strong{color:var(--y)}
+.pb{display:block;width:100%;max-width:480px;margin:25px auto 0;padding:15px;background:var(--y);color:var(--d);border:none;border-radius:50px;font-size:16px;font-weight:700;cursor:pointer;transition:var(--t);text-transform:uppercase;letter-spacing:2px;font-family:'Poppins',sans-serif}
+.pb:hover:not(:disabled){background:var(--yd);transform:translateY(-2px)}.pb:disabled{opacity:.4;cursor:not-allowed}
+
+.pp{padding:30px 5% 60px;max-width:950px;margin:0 auto}
+.pg{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.pf h3{font-size:22px;color:var(--d);margin-bottom:22px}.pf h3 span{color:var(--y)}
+.fi2{margin-bottom:18px}.fi2 label{display:block;font-size:12px;color:var(--g);margin-bottom:7px;text-transform:uppercase;letter-spacing:1px;font-weight:600}
+.fi2 input{width:100%;padding:13px 16px;background:var(--w);border:1px solid #ddd;border-radius:10px;color:var(--d);font-size:14px;font-family:'Poppins',sans-serif;transition:var(--t)}
+.fi2 input:focus{outline:none;border-color:var(--y)}.fi2 input::placeholder{color:#bbb}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pm{margin:22px 0}.pm h4{font-size:14px;margin-bottom:12px;color:var(--g);text-transform:uppercase;letter-spacing:1px;font-weight:600}
+.po{display:flex;gap:10px;flex-wrap:wrap}
+.pop{flex:1;min-width:90px;background:var(--w);border:2px solid #e0e0e0;border-radius:10px;padding:16px 8px;text-align:center;cursor:pointer;transition:var(--t)}
+.pop:hover,.pop.sel{border-color:var(--y);background:var(--yl)}
+.pop i{font-size:22px;color:var(--y);margin-bottom:6px;display:block}.pop span{font-size:11px;color:var(--g);text-transform:uppercase;font-weight:600}
+.cfb{width:100%;padding:15px;margin-top:8px;background:var(--y);color:var(--d);border:none;border-radius:50px;font-size:16px;font-weight:700;cursor:pointer;transition:var(--t);text-transform:uppercase;letter-spacing:2px;font-family:'Poppins',sans-serif}
+.cfb:hover{background:var(--yd);transform:translateY(-2px)}
+.bs{background:var(--w);border:1px solid #e8e8e8;border-radius:16px;padding:28px;height:fit-content;position:sticky;top:80px;box-shadow:var(--sh)}
+.bs h3{font-size:20px;color:var(--d);margin-bottom:20px}.bs h3 i{color:var(--y)}
+.bsi{width:100%;height:170px;object-fit:cover;border-radius:10px;margin-bottom:18px;background:#e8e8e8}
+.sr{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #f0f0f0;font-size:14px}.sr .lb{color:var(--g)}.sr .vl{font-weight:600}
+.st{display:flex;justify-content:space-between;padding:16px 0 0;font-size:18px;font-weight:700}.st .vl{color:var(--y);font-family:'Montserrat',sans-serif;font-size:26px}
+
+.mo{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:center;justify-content:center;z-index:2000}.mo.active{display:flex}
+.ml{background:var(--w);border-radius:20px;padding:45px;text-align:center;max-width:430px;width:90%;animation:si .4s ease}
+@keyframes si{from{transform:scale(.8);opacity:0}to{transform:scale(1);opacity:1}}
+.mi{width:85px;height:85px;border-radius:50%;background:linear-gradient(135deg,var(--gr),var(--grd));display:flex;align-items:center;justify-content:center;margin:0 auto 22px;font-size:38px;color:var(--w)}
+.ml h3{font-size:26px;color:var(--d);margin-bottom:8px}.ml p{color:var(--g);font-size:14px;line-height:1.7;margin-bottom:18px}
+.bid{font-size:20px;color:var(--y);font-weight:800;letter-spacing:3px;margin-bottom:22px;font-family:'Montserrat',sans-serif}
+.mc{background:var(--y);color:var(--d);border:none;padding:12px 35px;border-radius:50px;font-weight:600;cursor:pointer;font-size:14px;text-transform:uppercase;letter-spacing:1px;font-family:'Poppins',sans-serif}.mc:hover{background:var(--yd)}
+
+@media(max-width:768px){
+.hm{display:block}.nl{display:none;position:absolute;top:70px;left:0;right:0;background:var(--w);flex-direction:column;padding:20px 5%;gap:15px;box-shadow:0 10px 30px rgba(0,0,0,.1)}.nl.open{display:flex}
+.hc h1{font-size:28px}.hero{min-height:420px;padding:60px 5%}.fg{grid-template-columns:1fr}
+.sg2{gap:25px}.sn{font-size:34px}.sh h2{font-size:28px}.dg{grid-template-columns:1fr}.di{height:240px}.pg{grid-template-columns:1fr}.dcs{flex-direction:column}.fr{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="tb"><div><a href="mailto:jessiselfdrivecarsvjwd@gmail.com"><i class="fas fa-envelope"></i>jessiselfdrivecarsvjwd@gmail.com</a></div><div><a href="tel:+919700927660"><i class="fas fa-phone-alt"></i>+91 97009 27660</a></div></div>
+<nav class="nv"><a class="nb" onclick="showPage('home')"><i class="fas fa-car-side"></i><span>Jessi <span class="hl">Self Drive</span></span></a>
+<ul class="nl" id="nL"><li><a href="#heroSec" onclick="showPage('home')">Home</a></li><li><a href="#about" onclick="showPage('home')">About</a></li><li><a href="#fleet" onclick="showPage('home')">Fleet</a></li><li><a href="#why" onclick="showPage('home')">Why Us</a></li><li><a href="#reviews" onclick="showPage('home')">Reviews</a></li><li><a href="#footer" onclick="showPage('home')">Contact</a></li><li><a href="tel:+919700927660" class="nc"><i class="fas fa-phone-alt"></i> Call Now</a></li></ul>
+<button class="hm" onclick="document.getElementById('nL').classList.toggle('open')"><i class="fas fa-bars"></i></button></nav>
+
+<div id="home" class="page active">
+<section class="hero" id="heroSec"><div class="hc"><h1>Self Drive & Long Drive Cars in <span>Vijayawada</span> | Jessi Car Rentals</h1><p>At Jessi Self Drive Car Rentals, we deliver a smooth, safe and hassle-free driving experience. Well-maintained cars with transparent pricing and 24/7 support.</p><div class="hb"><a href="https://wa.me/919700927660?text=Hi%2C%20I%20would%20like%20to%20book%20a%20self%20drive%20car" class="btn bg" target="_blank"><i class="fab fa-whatsapp"></i> Call / WhatsApp</a><a href="#fleet" class="btn by"><i class="fas fa-car"></i> View Fleet</a></div></div></section>
+<section class="sec sg" id="about"><div class="sh"><h2>Our <span>Location</span></h2><p>Visit us or we'll deliver the car to your doorstep!</p></div><div class="lc"><i class="fas fa-map-marker-alt li"></i><h3>Vijayawada</h3><p>Near Ballemvaari Street, Prasadampadu, Currency Nagar, Ramavarappadu, AP 521108, India</p><a href="https://maps.google.com/maps?q=Prasadampadu+Vijayawada" target="_blank" class="lb">Get Directions <i class="fas fa-arrow-right"></i></a></div></section>
+<section class="sec" id="fleet"><div class="sh"><h2>Our <span>Fleet</span></h2><p>Choose from our handpicked fleet of well-maintained cars at affordable prices.</p></div><div class="fg">
+<div class="fc"><div class="fi"><img src="https://images.unsplash.com/photo-1623869675781-80aa31012c78?w=600&q=80" alt="Maruti Swift Dzire" onerror="this.style.display='none'"><div class="fb">₹2,499/Day</div></div>
+<div class="fd"><h3>Maruti Swift Dzire (AT &amp; MT)</h3><div class="fs"><span><i class="fas fa-road"></i> 200kms/12hrs — <strong>₹1,499/-</strong></span><span><i class="fas fa-road"></i> 400kms/24hrs — <strong>₹2,499/-</strong></span><span><i class="fas fa-user-friends"></i> 5 Seater | Sedan</span><span><i class="fas fa-gas-pump"></i> Petrol/Diesel</span></div>
+<div class="fe"><i class="fas fa-clock"></i> Extra Hr ₹300/-</div>
+<div class="fbt"><button class="fb1" onclick="openDet(1)"><i class="fas fa-paper-plane"></i> Enquiry Now</button><a href="https://wa.me/919700927660?text=Hi%2C%20I%20want%20to%20enquire%20about%20Maruti%20Swift%20Dzire" target="_blank" class="fb2"><i class="fab fa-whatsapp"></i> WhatsApp Us</a></div></div></div>
+<div class="fc"><div class="fi"><img src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=600&q=80" alt="Hyundai Creta" onerror="this.style.display='none'"><div class="fb">₹2,699/Day</div></div>
+<div class="fd"><h3>Hyundai Creta (AT &amp; MT)</h3><div class="fs"><span><i class="fas fa-road"></i> 200kms/12hrs — <strong>₹1,699/-</strong></span><span><i class="fas fa-road"></i> 400kms/24hrs — <strong>₹2,699/-</strong></span><span><i class="fas fa-user-friends"></i> 5 Seater | Mini SUV</span><span><i class="fas fa-gas-pump"></i> Petrol/Diesel</span></div>
+<div class="fe"><i class="fas fa-clock"></i> Extra Hr ₹350/-</div>
+<div class="fbt"><button class="fb1" onclick="openDet(2)"><i class="fas fa-paper-plane"></i> Enquiry Now</button><a href="https://wa.me/919700927660?text=Hi%2C%20I%20want%20to%20enquire%20about%20Hyundai%20Creta" target="_blank" class="fb2"><i class="fab fa-whatsapp"></i> WhatsApp Us</a></div></div></div>
+<div class="fc"><div class="fi"><img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0637?w=600&q=80" alt="Toyota Innova Crysta" onerror="this.style.display='none'"><div class="fb">₹3,499/Day</div></div>
+<div class="fd"><h3>Toyota Innova Crysta (AT &amp; MT)</h3><div class="fs"><span><i class="fas fa-road"></i> 200kms/12hrs — <strong>₹2,499/-</strong></span><span><i class="fas fa-road"></i> 400kms/24hrs — <strong>₹3,499/-</strong></span><span><i class="fas fa-user-friends"></i> 7 Seater | MPV</span><span><i class="fas fa-gas-pump"></i> Diesel</span></div>
+<div class="fe"><i class="fas fa-clock"></i> Extra Hr ₹400/-</div>
+<div class="fbt"><button class="fb1" onclick="openDet(3)"><i class="fas fa-paper-plane"></i> Enquiry Now</button><a href="https://wa.me/919700927660?text=Hi%2C%20I%20want%20to%20enquire%20about%20Toyota%20Innova%20Crysta" target="_blank" class="fb2"><i class="fab fa-whatsapp"></i> WhatsApp Us</a></div></div></div>
+<div class="fc"><div class="fi"><img src="https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=600&q=80" alt="Maruti Ertiga" onerror="this.style.display='none'"><div class="fb">₹2,999/Day</div></div>
+<div class="fd"><h3>Maruti Ertiga (AT &amp; MT)</h3><div class="fs"><span><i class="fas fa-road"></i> 200kms/12hrs — <strong>₹1,999/-</strong></span><span><i class="fas fa-road"></i> 400kms/24hrs — <strong>₹2,999/-</strong></span><span><i class="fas fa-user-friends"></i> 7 Seater | MPV</span><span><i class="fas fa-gas-pump"></i> Petrol/CNG</span></div>
+<div class="fe"><i class="fas fa-clock"></i> Extra Hr ₹350/-</div>
+<div class="fbt"><button class="fb1" onclick="openDet(4)"><i class="fas fa-paper-plane"></i> Enquiry Now</button><a href="https://wa.me/919700927660?text=Hi%2C%20I%20want%20to%20enquire%20about%20Maruti%20Ertiga" target="_blank" class="fb2"><i class="fab fa-whatsapp"></i> WhatsApp Us</a></div></div></div>
+<div class="fc"><div class="fi"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80" alt="Hyundai Venue" onerror="this.style.display='none'"><div class="fb">₹2,499/Day</div></div>
+<div class="fd"><h3>Hyundai Venue (Automatic)</h3><div class="fs"><span><i class="fas fa-road"></i> 200kms/12hrs — <strong>₹1,599/-</strong></span><span><i class="fas fa-road"></i> 400kms/24hrs — <strong>₹2,499/-</strong></span><span><i class="fas fa-user-friends"></i> 5 Seater | Compact SUV</span><span><i class="fas fa-gas-pump"></i> Petrol/Diesel</span></div>
+<div class="fe"><i class="fas fa-clock"></i> Extra Hr ₹300/-</div>
+<div class="fbt"><button class="fb1" onclick="openDet(5)"><i class="fas fa-paper-plane"></i> Enquiry Now</button><a href="https://wa.me/919700927660?text=Hi%2C%20I%20want%20to%20enquire%20about%20Hyundai%20Venue" target="_blank" class="fb2"><i class="fab fa-whatsapp"></i> WhatsApp Us</a></div></div></div>
+<div class="fc"><div class="fi"><img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=600&q=80" alt="Kia Seltos" onerror="this.style.display='none'"><div class="fb">₹2,899/Day</div></div>
+<div class="fd"><h3>Kia Seltos (AT &amp; MT)</h3><div class="fs"><span><i class="fas fa-road"></i> 200kms/12hrs — <strong>₹1,799/-</strong></span><span><i class="fas fa-road"></i> 400kms/24hrs — <strong>₹2,899/-</strong></span><span><i class="fas fa-user-friends"></i> 5 Seater | SUV</span><span><i class="fas fa-gas-pump"></i> Petrol/Diesel</span></div>
+<div class="fe"><i class="fas fa-clock"></i> Extra Hr ₹350/-</div>
+<div class="fbt"><button class="fb1" onclick="openDet(6)"><i class="fas fa-paper-plane"></i> Enquiry Now</button><a href="https://wa.me/919700927660?text=Hi%2C%20I%20want%20to%20enquire%20about%20Kia%20Seltos" target="_blank" class="fb2"><i class="fab fa-whatsapp"></i> WhatsApp Us</a></div></div></div></div></section>
+<section class="sec sg" id="why"><div class="sh"><h2>Why Choose <span>Jessi Self Drive Cars?</span></h2><p>Every ride is safe, affordable and hassle-free.</p></div><div class="wg">
+<div class="wc"><div class="wi"><i class="fas fa-car"></i></div><h4>Well-Maintained Cars</h4><p>Regularly serviced for smooth, reliable driving.</p></div>
+<div class="wc"><div class="wi"><i class="fas fa-pump-soap"></i></div><h4>Fully Sanitized</h4><p>Clean, germ-free cars for safe travel.</p></div>
+<div class="wc"><div class="wi"><i class="fas fa-headset"></i></div><h4>24/7 Support</h4><p>Available around the clock to assist you.</p></div>
+<div class="wc"><div class="wi"><i class="fas fa-check-circle"></i></div><h4>Transparent Pricing</h4><p>No hidden charges — what you see is what you pay.</p></div>
+<div class="wc"><div class="wi"><i class="fas fa-shield-alt"></i></div><h4>Safe & Convenient</h4><p>Comfortable self-drive tailored to your needs.</p></div>
+<div class="wc"><div class="wi"><i class="fas fa-tags"></i></div><h4>Low Fare Guarantee</h4><p>Only pay toll and fuel apart from rental.</p></div></div></section>
+<section class="sec" id="reviews"><div class="sh"><h2>What People <span>Say!</span></h2></div><div class="tg">
+<div class="tc"><div class="ts"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="tt">Well-maintained vehicles, affordable price. Customer friendly. Pleasant experience!</p><div class="ta"><div class="tv">R</div><div><div class="tn">Rajesh Kumar</div><div class="tm">2 weeks ago</div></div></div></div>
+<div class="tc"><div class="ts"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="tt">Rented an Innova for 2 days. Clean, well-maintained. Quick pickup and drop-off!</p><div class="ta"><div class="tv">S</div><div><div class="tn">Sravanthi Reddy</div><div class="tm">1 month ago</div></div></div></div>
+<div class="tc"><div class="ts"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="tt">Affordable service. Team is prompt. Good vehicles of all types.</p><div class="ta"><div class="tv">P</div><div><div class="tn">Pradeep Varma</div><div class="tm">2 months ago</div></div></div></div>
+<div class="tc"><div class="ts"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="tt">Reliable rental. Well-maintained, smooth booking, responsive service!</p><div class="ta"><div class="tv">K</div><div><div class="tn">Karthik Reddy</div><div class="tm">3 months ago</div></div></div></div></div></section>
+<section class="ss"><div class="sg2"><div class="si"><div class="sn" data-target="1">0</div><div class="sl">State</div></div><div class="si"><div class="sn" data-target="5">0</div><div class="sl">Years Experience</div></div><div class="si"><div class="sn" data-target="1">0</div><div class="sl">Location</div></div><div class="si"><div class="sn" data-target="50">0</div><div class="sl">Fleet</div></div><div class="si"><div class="sn" data-target="814">0</div><div class="sl">Happy Customers</div></div></div></section>
+<footer class="ft" id="footer"><div class="ftg"><div class="ftc"><h4>Jessi <span>Self Drive Cars</span></h4><p>Well-maintained cars for short or long-term rentals. Affordable self-drive options for city rides, road trips or everyday travel.</p><div class="fso"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-youtube"></i></a><a href="https://wa.me/919700927660" target="_blank"><i class="fab fa-whatsapp"></i></a></div></div>
+<div class="ftc"><h4>Quick <span>Links</span></h4><a href="#heroSec" onclick="showPage('home')">Home</a><a href="#about" onclick="showPage('home')">About</a><a href="#fleet" onclick="showPage('home')">Our Fleet</a><a href="#why" onclick="showPage('home')">Why Us</a><a href="#reviews" onclick="showPage('home')">Reviews</a></div>
+<div class="ftc"><h4>Get In <span>Touch</span></h4><div class="fci"><i class="fas fa-map-marker-alt"></i><p>Near Ballemvaari Street, Prasadampadu, Currency Nagar, Ramavarappadu, AP 521108</p></div><div class="fci"><i class="fas fa-phone-alt"></i><p>+91 97009 27660</p></div><div class="fci"><i class="fas fa-clock"></i><p>Open 24 Hours</p></div><div class="fci"><i class="fas fa-envelope"></i><p>jessiselfdrivecarsvjwd@gmail.com</p></div></div></div>
+<div class="ftb">&copy; 2026 Jessi Self Drive Cars. All Rights Reserved.</div></footer></div>
+
+<!-- DETAIL -->
+<div id="detail" class="page"><div class="dp">
+<button class="bb" onclick="showPage('home')"><i class="fas fa-arrow-left"></i> Back to Fleet</button>
+<div class="dg"><img id="dI" class="di" src="" alt=""><div class="dn"><h2 id="dN"></h2><div class="dt" id="dT"></div><p class="dd" id="dD"></p><div class="df" id="dF"></div><div class="dl">Select Duration</div><div class="dcs" id="dDu"></div></div></div>
+<div class="cs"><h3>Select Your <span>Dates</span></h3><div class="cb"><div class="ch"><button class="cn" onclick="chgM(-1)"><i class="fas fa-chevron-left"></i></button><h4 id="cT"></h4><button class="cn" onclick="chgM(1)"><i class="fas fa-chevron-right"></i></button></div><div class="cg" id="cD"></div><div class="cle"><div class="cli"><div class="ld av"></div> Available</div><div class="cli"><div class="ld un"></div> Unavailable</div></div><div class="din" id="dIn">Click a date for <strong>pickup</strong>, then another for <strong>return</strong>.</div></div>
+<button class="pb" id="pB" disabled onclick="goP()">Select Dates to Continue</button></div></div></div>
+
+<!-- PAYMENT -->
+<div id="payment" class="page"><div class="pp">
+<button class="bb" onclick="showPage('detail')"><i class="fas fa-arrow-left"></i> Back to Car Details</button>
+<h2 style="font-size:32px;margin-bottom:8px">Complete Your <span style="color:var(--y)">Booking</span></h2><p style="color:var(--g);margin-bottom:30px">Fill in your details to confirm.</p>
+<div class="pg"><div class="pf"><h3>Customer <span>Details</span></h3>
+<div class="fi2"><label>Full Name</label><input type="text" id="cN" placeholder="Enter your full name"></div>
+<div class="fr"><div class="fi2"><label>Phone</label><input type="tel" id="cP" placeholder="+91 XXXXX XXXXX"></div><div class="fi2"><label>Email</label><input type="email" id="cE" placeholder="you@example.com"></div></div>
+<div class="fi2"><label>Driving License</label><input type="text" id="cL" placeholder="Enter DL number"></div>
+<div class="fr"><div class="fi2"><label>Pickup</label><input value="Prasadampadu, Vijayawada" readonly style="color:var(--y);font-weight:600"></div><div class="fi2"><label>Drop-off</label><input value="Prasadampadu, Vijayawada" readonly style="color:var(--y);font-weight:600"></div></div>
+<div class="pm"><h4>Payment Method</h4><div class="po"><div class="pop sel" onclick="selPay(this)"><i class="fas fa-qrcode"></i><span>UPI</span></div><div class="pop" onclick="selPay(this)"><i class="fas fa-credit-card"></i><span>Card</span></div><div class="pop" onclick="selPay(this)"><i class="fas fa-money-bill-wave"></i><span>Cash</span></div><div class="pop" onclick="selPay(this)"><i class="fab fa-google-pay"></i><span>GPay</span></div></div></div>
+<button class="cfb" onclick="cfm()"><i class="fas fa-lock"></i> Confirm Booking</button></div>
+<div class="bs"><h3><i class="fas fa-receipt"></i> Booking Summary</h3><img id="sI" class="bsi" src="" alt=""><div id="sD"></div></div></div></div></div>
+
+<!-- MODAL -->
+<div class="mo" id="sM"><div class="ml"><div class="mi"><i class="fas fa-check"></i></div><h3>Booking Confirmed!</h3><p>Confirmation will be sent to your phone and email.</p><div class="bid" id="bI"></div><p style="font-size:12px;color:var(--g)">Queries? Call <strong style="color:var(--y)">+91 97009 27660</strong></p><button class="mc" onclick="clM()">Done</button></div></div>
+
+<a href="https://wa.me/919700927660?text=Hi%2C%20I%20would%20like%20to%20book%20a%20self%20drive%20car" class="faw" target="_blank"><i class="fab fa-whatsapp"></i></a>
+<a href="tel:+919700927660" class="fap"><i class="fas fa-phone-alt"></i></a>
+
+<script>
+var cars=[
+{id:1,name:"Maruti Swift Dzire",type:"Sedan",seats:5,fuel:"Petrol/Diesel",trans:"AT & MT",price12:1499,price24:2499,extra:300,km12:200,km24:400,img:"https://images.unsplash.com/photo-1623869675781-80aa31012c78?w=600&q=80",features:["Air Conditioning","Power Steering","Music System","Central Locking","Airbags","GPS Tracking"],desc:"Popular compact sedan. Fuel efficient, comfortable, low maintenance. Perfect for city drives."},
+{id:2,name:"Hyundai Creta",type:"Mini SUV",seats:5,fuel:"Petrol/Diesel",trans:"AT & MT",price12:1699,price24:2699,extra:350,km12:200,km24:400,img:"https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=600&q=80",features:["Panoramic Sunroof","Touchscreen","Cruise Control","Rear Camera","Ventilated Seats","Connected Car"],desc:"Feature-rich compact SUV with premium interiors. Ideal for highway cruising."},
+{id:3,name:"Toyota Innova Crysta",type:"MPV",seats:7,fuel:"Diesel",trans:"AT & MT",price12:2499,price24:3499,extra:400,km12:200,km24:400,img:"https://images.unsplash.com/photo-1549317661-bd32c8ce0637?w=600&q=80",features:["Captain Seats","Rear AC Vents","Powerful Engine","Spacious Boot","Cruise Control","Multiple Airbags"],desc:"King of MPVs. Unmatched reliability, spacious, perfect for families and groups."},
+{id:4,name:"Maruti Ertiga",type:"MPV",seats:7,fuel:"Petrol/CNG",trans:"AT & MT",price12:1999,price24:2999,extra:350,km12:200,km24:400,img:"https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=600&q=80",features:["Spacious 3rd Row","Smartplay Studio","Rear AC","Suzuki Connect","Dual Airbags","ABS with EBD"],desc:"Best value 7-seater. Fuel-efficient, spacious, great for family trips."},
+{id:5,name:"Hyundai Venue",type:"Compact SUV",seats:5,fuel:"Petrol/Diesel",trans:"Automatic",price12:1599,price24:2499,extra:300,km12:200,km24:400,img:"https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80",features:["BlueLink Connected","Wireless Charging","Sunroof","8-inch Touchscreen","Rear Camera","TPMS"],desc:"Stylish, tech-loaded compact SUV with connected car features."},
+{id:6,name:"Kia Seltos",type:"SUV",seats:5,fuel:"Petrol/Diesel",trans:"AT & MT",price12:1799,price24:2899,extra:350,km12:200,km24:400,img:"https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=600&q=80",features:["Bose Sound","360 Camera","HUD","Ventilated Seats","UVO Connect","Drive Modes"],desc:"Premium mid-size SUV with striking looks and top features."}
+];
+var cur=null,sDur=24,cMo=new Date().getMonth(),cYr=new Date().getFullYear(),pDt=null,rDt=null;
+var unav=new Set();(function(){var t=new Date();for(var m=0;m<3;m++){var mo=(t.getMonth()+m)%12,yr=t.getFullYear()+Math.floor((t.getMonth()+m)/12),dim=new Date(yr,mo+1,0).getDate();for(var i=0;i<5;i++){var d=1+Math.floor(Math.random()*dim);unav.add(yr+"-"+String(mo+1).padStart(2,"0")+"-"+String(d).padStart(2,"0"))}}})();
+function showPage(p){document.querySelectorAll(".page").forEach(function(x){x.classList.remove("active")});document.getElementById(p).classList.add("active");window.scrollTo({top:0,behavior:"smooth"});document.getElementById("nL").classList.remove("open")}
+function openDet(id){cur=cars.find(function(c){return c.id===id});pDt=null;rDt=null;sDur=24;document.getElementById("dI").src=cur.img;document.getElementById("dN").textContent=cur.name;document.getElementById("dT").innerHTML='<span class="dtg"><i class="fas fa-car"></i> '+cur.type+'</span><span class="dtg"><i class="fas fa-user-friends"></i> '+cur.seats+' Seater</span><span class="dtg"><i class="fas fa-gas-pump"></i> '+cur.fuel+'</span><span class="dtg"><i class="fas fa-cog"></i> '+cur.trans+'</span>';document.getElementById("dD").textContent=cur.desc;document.getElementById("dF").innerHTML=cur.features.map(function(f){return '<div class="dfe"><i class="fas fa-check-circle"></i> '+f+'</div>'}).join("");document.getElementById("dDu").innerHTML='<div class="dc" onclick="pDu(12,this)"><div class="du">12 Hours</div><div class="am">₹'+cur.price12.toLocaleString()+'</div><div class="pe">'+cur.km12+'kms</div></div><div class="dc sel" onclick="pDu(24,this)"><div class="du">24 Hours</div><div class="am">₹'+cur.price24.toLocaleString()+'</div><div class="pe">'+cur.km24+'kms</div></div>';cMo=new Date().getMonth();cYr=new Date().getFullYear();rCal();uI();document.getElementById("pB").disabled=true;document.getElementById("pB").textContent="Select Dates to Continue";showPage("detail")}
+function pDu(d,el){sDur=d;document.querySelectorAll(".dc").forEach(function(c){c.classList.remove("sel")});el.classList.add("sel");uI()}
+var mN=["January","February","March","April","May","June","July","August","September","October","November","December"];var dN2=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+function rCal(){document.getElementById("cT").textContent=mN[cMo]+" "+cYr;var c=document.getElementById("cD");var h=dN2.map(function(d){return '<div class="cdn">'+d+'</div>'}).join("");var fd=new Date(cYr,cMo,1).getDay(),dim=new Date(cYr,cMo+1,0).getDate(),td=new Date();td.setHours(0,0,0,0);for(var i=0;i<fd;i++)h+='<div class="cd empty"></div>';for(var d=1;d<=dim;d++){var dt=new Date(cYr,cMo,d),ds=cYr+"-"+String(cMo+1).padStart(2,"0")+"-"+String(d).padStart(2,"0");var cls="cd";if(dt<td)cls+=" past";else if(unav.has(ds))cls+=" unavail";else{if(pDt&&ds===fD(pDt))cls+=" sel";if(rDt&&ds===fD(rDt))cls+=" sel";if(pDt&&rDt&&dt>pDt&&dt<rDt)cls+=" inrange";if(dt.toDateString()===new Date().toDateString())cls+=" today"}var ok=dt>=td&&!unav.has(ds);h+='<div class="'+cls+'" '+(ok?'onclick="sDt('+cYr+","+cMo+","+d+')"':"")+">"+d+"</div>"}c.innerHTML=h}
+function fD(d){return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
+function fDD(d){return d.getDate()+" "+mN[d.getMonth()].substring(0,3)+" "+d.getFullYear()}
+function sDt(y,m,d){var cl=new Date(y,m,d);if(!pDt||(pDt&&rDt)){pDt=cl;rDt=null}else{if(cl<=pDt){pDt=cl;rDt=null}else{var bl=false;var t=new Date(pDt);while(t<=cl){if(unav.has(fD(t))){bl=true;break}t.setDate(t.getDate()+1)}if(bl){pDt=cl;rDt=null}else rDt=cl}}rCal();uI()}
+function uI(){var info=document.getElementById("dIn"),btn=document.getElementById("pB");if(!pDt){info.innerHTML='Click a date for <strong>pickup</strong>, then another for <strong>return</strong>.';btn.disabled=true;btn.textContent="Select Dates to Continue"}else if(!rDt){info.innerHTML='<strong>Pickup:</strong> '+fDD(pDt)+' → Now select <strong>return date</strong>.';btn.disabled=true;btn.textContent="Select Return Date"}else{var days=Math.ceil((rDt-pDt)/864e5),ppd=sDur===12?cur.price12:cur.price24,tot=ppd*(days||1);info.innerHTML='<strong>Pickup:</strong> '+fDD(pDt)+' → <strong>Return:</strong> '+fDD(rDt)+' | <strong>'+days+' day(s)</strong> | <strong style="font-size:18px">₹'+tot.toLocaleString()+'</strong>';btn.disabled=false;btn.innerHTML='<i class="fas fa-arrow-right"></i> Proceed — ₹'+tot.toLocaleString()}}
+function chgM(dir){cMo+=dir;if(cMo>11){cMo=0;cYr++}if(cMo<0){cMo=11;cYr--}rCal()}
+function goP(){if(!pDt||!rDt)return;var days=Math.ceil((rDt-pDt)/864e5),ppd=sDur===12?cur.price12:cur.price24,tot=ppd*(days||1);document.getElementById("sI").src=cur.img;document.getElementById("sD").innerHTML='<div class="sr"><span class="lb">Car</span><span class="vl">'+cur.name+'</span></div><div class="sr"><span class="lb">Type</span><span class="vl">'+cur.type+' • '+cur.seats+' Seater</span></div><div class="sr"><span class="lb">Duration</span><span class="vl">'+sDur+' Hrs/day</span></div><div class="sr"><span class="lb">Pickup</span><span class="vl">'+fDD(pDt)+'</span></div><div class="sr"><span class="lb">Return</span><span class="vl">'+fDD(rDt)+'</span></div><div class="sr"><span class="lb">Days</span><span class="vl">'+days+'</span></div><div class="sr"><span class="lb">Rate</span><span class="vl">₹'+ppd.toLocaleString()+'</span></div><div class="st"><span class="lb">Total</span><span class="vl">₹'+tot.toLocaleString()+'</span></div>';showPage("payment")}
+function selPay(el){document.querySelectorAll(".pop").forEach(function(o){o.classList.remove("sel")});el.classList.add("sel")}
+function cfm(){var n=document.getElementById("cN").value.trim(),p=document.getElementById("cP").value.trim(),l=document.getElementById("cL").value.trim();if(!n||!p||!l){alert("Please fill Name, Phone, and DL.");return}document.getElementById("bI").textContent="JESSI-"+Date.now().toString(36).toUpperCase()+"-"+Math.random().toString(36).substring(2,6).toUpperCase();document.getElementById("sM").classList.add("active")}
+function clM(){document.getElementById("sM").classList.remove("active");["cN","cP","cE","cL"].forEach(function(id){document.getElementById(id).value=""});showPage("home")}
+var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){var el=e.target,t=parseInt(el.dataset.target);var c=0,inc=t/50;var ti=setInterval(function(){c+=inc;if(c>=t){c=t;clearInterval(ti)}el.textContent=Math.floor(c)+(t>=50?"+":"")},30);obs.unobserve(el)}})},{threshold:0.5});document.querySelectorAll(".sn").forEach(function(c){obs.observe(c)});
+document.querySelectorAll(".nl a").forEach(function(a){a.addEventListener("click",function(){document.getElementById("nL").classList.remove("open")})}); 
+</script>
+</body>
+</html>
